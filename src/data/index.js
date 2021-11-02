@@ -1,0 +1,7 @@
+export { default as about } from './about'
+export { default as comments } from './comments'
+export { default as details } from './details'
+export { default as educations } from './educations'
+export { default as experiences } from './experiences'
+export { default as posts } from './posts'
+export { default as profiles } from './profiles'
