@@ -1,18 +1,14 @@
 import React from 'react'
-import { Switch, Route } from 'react-router-dom'
+import { Route, Routes } from 'react-router-dom'
 
 import { profilesPath } from '~/config'
 import { AllProfilesPage, SingleProfilePage } from '~/pages'
 
 const ProfileRoutes = () => (
-  <Switch>
-    <Route exact path={profilesPath.all}>
-      <AllProfilesPage />
-    </Route>
-    <Route path={profilesPath.single}>
-      <SingleProfilePage />
-    </Route>
-  </Switch>
+  <Routes>
+    <Route index element={<AllProfilesPage />} />
+    <Route path={profilesPath.single} element={<SingleProfilePage />} />
+  </Routes>
 )
 
 export default ProfileRoutes
