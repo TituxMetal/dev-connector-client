@@ -1,20 +1,20 @@
 export const dashboardPath = {
-  home: '/dashboard',
-  education: '/dashboard/education',
-  experience: '/dashboard/experience',
-  profile: '/dashboard/profile'
+  home: 'dashboard',
+  education: 'education',
+  experience: 'experience',
+  profile: 'profile'
 }
 
 export const mainPath = {
   home: '/',
-  auth: '/auth'
+  auth: 'auth'
 }
 
 export const postsPath = {
-  all: '/posts',
-  single: '/posts/:slug'
+  all: 'posts',
+  single: ':slug'
 }
 export const profilesPath = {
-  all: '/profiles',
-  single: '/profiles/:slug'
+  all: 'profiles',
+  single: ':slug'
 }
